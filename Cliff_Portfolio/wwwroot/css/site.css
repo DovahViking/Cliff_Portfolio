@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.menu{
+    width: 15%;
+    background-color: #191616;
+}
