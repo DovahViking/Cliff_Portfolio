@@ -8,5 +8,10 @@ namespace Cliff_Portfolio.Pages.Portfolios.Game_Developer
         public void OnGet()
         {
         }
-    }
+
+		public IActionResult OnGetSection(string section)
+		{
+			return ViewComponent("GameDevelopment", section);
+		}
+	}
 }
