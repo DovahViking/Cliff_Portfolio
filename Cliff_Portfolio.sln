@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cliff_Portfolio", "Cliff_Portfolio\Cliff_Portfolio.csproj", "{37EB797D-C893-43EF-BA13-370704793EE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium_Tests", "Selenium_Tests\Selenium_Tests.csproj", "{99AF1556-F735-470C-BA38-EA0DFC57D651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{37EB797D-C893-43EF-BA13-370704793EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37EB797D-C893-43EF-BA13-370704793EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37EB797D-C893-43EF-BA13-370704793EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AF1556-F735-470C-BA38-EA0DFC57D651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AF1556-F735-470C-BA38-EA0DFC57D651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AF1556-F735-470C-BA38-EA0DFC57D651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AF1556-F735-470C-BA38-EA0DFC57D651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
