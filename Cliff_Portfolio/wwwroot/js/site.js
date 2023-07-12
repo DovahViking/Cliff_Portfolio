@@ -14,3 +14,8 @@ function main_display(section_name) {
         }
     })
 }
+
+function toggle_dark_mode() {
+    var element = document.body;
+    element.classList.toggle("dark_mode");
+}

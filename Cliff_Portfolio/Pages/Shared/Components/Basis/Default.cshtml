@@ -2,14 +2,20 @@
 <div class="screen_container">
 	<div id="menu" class="menu">
 
-		<div>
-			<h1>aaa</h1>
+		<div class="menu_image pt-5">
+			<img src="~/Images/N.png"/>
 		</div>
 
-		<span id="Home" onclick="main_display(this.id)">Home</span>
-		<span id="About" onclick="main_display(this.id)">About</span>
-		<span id="Portfolio" onclick="main_display(this.id)">Portfolio</span>
-		<span id="Contact" onclick="main_display(this.id)">Contact</span>
+		<div class="pt-5">
+			<span id="Home" onclick="main_display(this.id)">Home</span>
+			<span id="About" onclick="main_display(this.id)">About</span>
+			<span id="Portfolio" onclick="main_display(this.id)">Portfolio</span>
+			<span id="Contact" onclick="main_display(this.id)">Contact</span>
+		</div>
+
+		<div class="menu_footer pt-5">
+			<i class="fa-solid fa-sun fa-xl" style="color: #ffffff;" onclick="toggle_dark_mode()"></i>
+		</div>
 	</div>
 
 	<div id="main" class="main">
